@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<style> 
+div
+{
+	width:100px;
+	height:75px;
+	background-color:red;
+	border:1px solid black;
+}
+div#div2
+{
+	transform:rotate(30deg);
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+}
+</style>
+</head>
+<body>
+
+<div>你好。这是一个 DIV 元素。</div>
+
+<div id="div2">你好。这是一个 DIV 元素。</div>
+
+<select> 
+<option>Here is the first option</option> 
+<option>The second option</option> 
+</select> 
+
+<code>
+void customer_generate_base_dir(void)
+{
+    char startup_time[22];
+    memset(fp_debug_base_dir, 0, sizeof(fp_debug_base_dir));
+    snprintf(fp_debug_base_dir, sizeof(fp_debug_base_dir), "/data/fp_data/fp_debug_%s",
+             get_current_timestamp(startup_time, sizeof(startup_time)));
+    LOGD(FPTAG"customer_generate_base_dir invoked,fp_debug_base_dir->%s", fp_debug_base_dir);
+}</code><br />
+
+</body>
+</html>
